@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.25;
+}
+.logo{
+
+}
+
+.item{
+    display: flex;
+    position: absolute;
+    margin-left: 221px;
+    margin-top: 44px;
+    font-size: 29px;
+}
+
+.item li{
+    list-style: none;
+    margin: -4px 25px;
+}
+
+.item li a{
+    text-decoration: none;
+    color: black;
+    padding: 2px 2px;
+}
+
+.item li a:hover{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+.search{
+    margin-right: 32px;
+    margin-top: 24px;
+}
+
+.search input{
+    width: 180px;
+    height: 26px;
+    border-radius: 17px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    /* background-color: rgb(168, 94, 81); */
+    color: black;
+}
+
+.search button{
+    width: 51px;
+    height: 21px;
+    border-radius: 13px;
+    padding: 2px 2px;
+    cursor: pointer;
+    /* background-color: chartreuse; */
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    height: 600px;
+}
+.content::before{
+    content: "";
+    background: url('../Image/bg.jpg');
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.content h1{
+    font-size: 4rem;
+}
+
+.content h1:hover{
+    font-size: 4.3rem;
+    color: white;
+    cursor: pointer;
+}
+
+.content p{
+    font-size: 1.3rem;
+    color: white;
+}
+
+.content p:hover{
+    /* font-size: 1.3rem; */
+    color: black;
+}
+.content button{
+    margin-top: 17px;
+    border-radius: 14px;
+    font-size: 24px;
+    height: 37px;
+    width: 129px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: white;
+    color: red;
+}
+
+.content button:hover{
+    /* margin-top: 17px; */
+    /* border-radius: 14px; */
+    font-size: 30px;
+    height: 40px;
+    width: 160px;
+    /* cursor: pointer; */
+    background-color: red;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    justify-content:space-evenly;
+    
+    /* margin-left: 25px; */
+    /* margin-top: -36px; */
+    position: relative;
+}
+
+.cards::before{
+    content: "";
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    /* opacity: 0.5; */
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 490px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    margin-top: -10px;
+    margin-left: 25px;
+}
+
+#card1{
+    color: red;
+    background: url(../Image/burger.jpg) no-repeat;
+    /* opacity: 0.85; */
+    display: flex;
+    justify-content: end;
+    font-size: 26px;
+     margin-right: 31px;
+     background-size: cover;
+    
+}
+
+#card2{
+    background: url('../Image/momo.jpg') no-repeat;
+    display: flex;
+    justify-content: end;
+    font-size: 26px;
+     margin-right: 31px;
+     color: red;
+     background-size: cover;
+}
+
+#card3{
+    background: url('../Image/pizza.jpg') no-repeat;
+    display: flex;
+    justify-content: end;
+    font-size: 26px;
+     margin-right: 31px;
+     color: red;
+     background-size: cover;
+}
+
+#card1 h1:hover{
+    cursor: pointer;
+    background-color: red;
+    font-size: 45px;
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#card2 h1:hover{
+    cursor: pointer;
+    background-color: red;
+    font-size: 45px;
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#card3 h1:hover{
+    cursor: pointer;
+    background-color: red;
+    font-size: 45px;
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    height: 500px;
+    font-size: 3rem;
+}
+
+.var{
+    
+}
+
+.foot{
+    display: flex;
+    background-color: rgb(134, 70, 70);
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
